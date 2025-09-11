@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Main HTML structure for the projects page">
+    <meta name="keywords" content="Full Stack Developer, UI/UX Designer, Web Development, Abdo Maher , Projects , Clone websites">
+    <meta name="author" content="Abdo Maher">
+    <meta property="og:url" content="https://www.facebook.com/profile.php?id=61550933049605">
+    <meta property="og:type" content="website">
+    <!-- Website title -->
+    <title>Abdo Maher | Projects</title>
+    <!-- Website Icon -->
+    <link rel="shortcut icon" href="../../Public/Projects_page.Favicon.png" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../CSS/Global.css">
+    <link rel="stylesheet" href="../CSS/projects.css">
+    <link rel="stylesheet" href="../CSS/navigation.bar.css">
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- Back to top button -->
+    <button id="TopBtn"><i class="fas fa-angle-up"></i></button>
+    <!-- Loading animation overlay -->
+    <div class="loading">
+      <div class="load">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    
+    <!-- ==== Start Navigation Bar ===== -->
+    <header id="navigation-bar">
+        <nav>
+            <h3 class="logo">Abdo</h3>
+            <!-- Navigation links -->
+            <ul class="list">
+                <li class="item"><a href="../../index.html#" class="link">home</a></li>
+                <li class="item"><a href="../../index.html#About" class="link">about</a></li>
+                <li class="item"><a href="../../index.html#Services" class="link">Services</a></li>
+                <li class="item"><a href="../../index.html#Skills" class="link">Skills</a></li>
+                <li class="item"><a href="../../index.html#Projects" class="link">Projects</a></li>
+                <li class="item"><a href="../../index.html#Testimonials" class="link">testimonials</a></li>
+                <li class="item"><a href="../../index.html#Contact" class="link">contact</a></li>
+            </ul>
+            <!-- Theme switch button and mobile menu -->
+            <div class="menu">
+                <button class="website-mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="toggle-menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- ==== End Navigation Bar ===== -->
+    
+    <!-- ===== Start hero section ===== -->
+    <section class="hero">
+        <h1>my Projects & works</h1>
+        <p>you can see all my projects here</p>
+        <a href="#projects">start</a>
+    </section>
+    <!-- ===== End hero section ===== -->
+
+    <section id="projects">
+        <div class="section-head">
+            <h1 class="main-title">feature projects & works</h1>
+            <p class="section-desc">
+                A collection of projects I've worked on, ranging from web applications to mobile apps and AI-powered tools.
+            </p>
+        </div>
+        <!-- Search bar for filtering projects -->
+        <div class="search-box">
+            <input type="text" id="search" placeholder="search">
+            <i class="fas fa-search"></i>
+        </div>
+        <!-- Container for project cards (populated by JS) -->
+        <div class="container">
+            <!-- projects added with javascript -->
+        </div>
+        <!-- Show more/less button -->
+        <div class="show-more">
+            <button id="more">show more</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>all right reversed &copy; abdo maher</p>
+    </footer>
+
+    <!--  JS file -->
+    <script src="../Javascript/script.js"></script>
+    <!-- Media events file -->
+    <script src="../Javascript/media.js"></script>
+</body>
+</html>

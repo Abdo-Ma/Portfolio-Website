@@ -1,0 +1,76 @@
+<!--
+  ============================
+  Error Page HTML
+  Author: Abdo Maher
+  Description: Error page massage will show in error only
+  ============================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags ans page title -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../Public/error_page_Favicon.png" type="image/x-icon">
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins',system-ui;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .number {
+        font-size: 5rem;
+        color: #222;
+      }
+      .title{
+        text-transform: capitalize;
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      .text {
+        font-size: 17px;
+        width: 60%;
+        text-align: center;
+      }
+      @media (max-width:550px){
+        .text{
+          width: 90%;
+          font-size: 13px;
+        }
+        .number{
+          font-size: 3.5rem;
+        }
+        .title{
+          font-size: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="number">404</h1>
+      <h3 class="title">page not found</h3>
+      <p class="text">
+        Sorry, the page you’re trying to reach doesn’t exist on our website.
+        This might have happened because the link was mistyped, the page has
+        been moved to another location, or it may have been permanently
+        deleted
+      </p>
+    </div>
+  </body>
+</html>
