@@ -243,7 +243,7 @@ function init() {
         const ProjectsCards = [
             {
                 id: 1,
-                image: "assets/Images/Projects/P_01.png",
+                image: "Images/Projects/P_01.png",
                 title: "Facebook Clone",
                 condition: "Planning",
                 description: "Frontend clone of Facebook with timeline, posts, likes, and comments.",
@@ -495,3 +495,4 @@ function init() {
 
 
 document.addEventListener("DOMContentLoaded", init);
+
