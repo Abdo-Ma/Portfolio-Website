@@ -249,25 +249,25 @@ function init() {
                 description: "Frontend clone of Facebook with timeline, posts, likes, and comments.",
                 technologies: ["HTML", "CSS", "Javascript"],
                 type: "website application",
-                code: "source/HTML/404.html",
-                preview: "source/HTML/404.html",
+                code: "HTML/404.html",
+                preview: "HTML/404.html",
                 class: "card"
             },
             {
                 id: 2,
-                image: "assets/Images/Projects/P_03.png",
+                image: "Images/Projects/P_03.png",
                 title: "programming academy",
                 condition: "inprogress",
                 description: "Learning platform with courses, categories, testimonials, and pricing plans.",
                 technologies: ["HTML", "CSS", "Javascript", "AOS", "SASS"],
                 type: "website",
-                code: "source/HTML/404.html",
-                preview: "source/HTML/404.html",
+                code: "HTML/404.html",
+                preview: "HTML/404.html",
                 class: "card"
             },
             {
                 id: 3,
-                image: "assets/Images/Projects/P_13.png",
+                image: "Images/Projects/P_13.png",
                 title: "landing page",
                 condition: "completed",
                 description: "creative landing page to profile with modern and dark style",
@@ -329,31 +329,31 @@ function init() {
         const testimonialsCards = [
             {
                 id: 1,
-                image: "assets/Images/Testimonials/R_01.png",
+                image: "Images/Testimonials/R_01.png",
                 name: "Mike Chen",
                 text: "“Abdo is a highly skilled developer. He transformed our outdated website into a modern, responsive platform that boosted our customer engagement significantly.”",
             },
             {
                 id: 2,
-                image: "assets/Images/Testimonials/R_02.png",
+                image: "Images/Testimonials/R_02.png",
                 name: "David Wilson",
                 text: "Working with Abdo was seamless. He understands requirements quickly and delivers high-quality results ahead of deadlines. Truly professional.",
             },
             {
                 id: 3,
-                image: "assets/Images/Testimonials/R_03.png",
+                image: "Images/Testimonials/R_03.png",
                 name: "Sarah Lee",
                 text: "“I was impressed by Abdo’s attention to detail in both design and development. He made our app intuitive and visually stunning.”",
             },
             {
                 id: 4,
-                image: "assets/Images/Testimonials/R_04.png",
+                image: "Images/Testimonials/R_04.png",
                 name: "Emily Johnson",
                 text: "“Abdo not only built a powerful backend for our system but also ensured the frontend experience was smooth and user-friendly. Highly recommend!”",
             },
             {
                 id: 5,
-                image: "assets/Images/Testimonials/R_05.png",
+                image: "Images/Testimonials/R_05.png",
                 name: "Chris Evans",
                 text: "“Great communication, excellent coding standards, and creative design solutions. Abdo is definitely the developer you want on your team.”",
             }
@@ -492,5 +492,6 @@ function init() {
         })
     } getInTouch();
 }
+
 
 document.addEventListener("DOMContentLoaded", init);
