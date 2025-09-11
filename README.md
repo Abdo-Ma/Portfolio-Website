@@ -8,7 +8,7 @@ You’ll find my featured projects, skills, services, testimonials, and more.
 
 ## 🚀 Live Demo
 
-[View Portfolio Online](#) <!-- Add your live link here if available -->
+[View Portfolio Online](https://abdo-ma.github.io/Portfolio-Website/) <!-- Add your live link here if available -->
 
 ---
 
@@ -89,7 +89,7 @@ You’ll find my featured projects, skills, services, testimonials, and more.
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone (https://abdo-ma.github.io/Portfolio-Website/)
    cd your-portfolio
    ```
 
@@ -138,3 +138,4 @@ For major changes, please open an issue first to discuss what you would like to 
 If you like this project, please give it a ⭐️ on [GitHub](https://github.com/Abdo-Ma)!
 
 ---
+
