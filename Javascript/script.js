@@ -158,8 +158,8 @@ function init() {
                 description: "Personal portfolio website with projects showcase, blog, and contact form.",
                 technologies: ["HTML", "CSS", "Javascript"],
                 type: "website",
-                code: "404.html",
-                preview: "404.html",
+                code: "https://github.com/Abdo-Ma/Portfolio-Website.git",
+                preview: "https://abdo-ma.github.io/Portfolio-Website/",
                 class: "card"
             },
             {
@@ -358,3 +358,4 @@ function init() {
 
 
 document.addEventListener("DOMContentLoaded", init)
+
