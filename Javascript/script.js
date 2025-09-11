@@ -92,7 +92,7 @@ function init() {
         const projects = [
             {
                 id: 1,
-                image: "../../assets/Images/Projects/P_01.png",
+                image: "../Images/Projects/P_01.png",
                 title: "Facebook Clone",
                 condition: "planning",
                 description: "Frontend clone of Facebook with timeline, posts, likes, and comments.",
@@ -104,7 +104,7 @@ function init() {
             },
             {
                 id: 2,
-                image: "../../assets/Images/Projects/P_02.png",
+                image: "../Images/Projects/P_02.png",
                 title: "Apple Website Clone",
                 condition: "planning",
                 description: "Clone of Apple's official website with product showcase and animations.",
@@ -116,7 +116,7 @@ function init() {
             },
             {
                 id: 3,
-                image: "../../assets/Images/Projects/P_03.png",
+                image: "../Images/Projects/P_03.png",
                 title: "Programming Academy",
                 condition: "inprogress",
                 description: "Learning platform with courses, categories, testimonials, and pricing plans.",
@@ -128,7 +128,7 @@ function init() {
             },
             {
                 id: 4,
-                image: "../../assets/Images/Projects/P_04.png",
+                image: "../Images/Projects/P_04.png",
                 title: "Task Manager",
                 condition: "planning",
                 description: "Task management app with add, edit, delete, and localStorage support.",
@@ -140,7 +140,7 @@ function init() {
             },
             {
                 id: 5,
-                image: "../../assets/Images/Projects/P_05.png",
+                image: "../Images/Projects/P_05.png",
                 title: "Weather App",
                 condition: "Planning",
                 description: "Weather forecast app using public API with city search and 5-day forecast.",
@@ -152,7 +152,7 @@ function init() {
             },
             {
                 id: 6,
-                image: "../../assets/Images/Projects/P_06.png",
+                image: "../Images/Projects/P_06.png",
                 title: "Personal Portfolio",
                 condition: "completed",
                 description: "Personal portfolio website with projects showcase, blog, and contact form.",
@@ -164,7 +164,7 @@ function init() {
             },
             {
                 id: 7,
-                image: "../../assets/Images/Projects/P_09.png",
+                image: "../Images/Projects/P_09.png",
                 title: "Admin Dashboard",
                 condition: "Planning",
                 description: "Admin dashboard with charts, tables, analytics, and dark mode toggle.",
@@ -176,7 +176,7 @@ function init() {
             },
             {
                 id: 8,
-                image: "../../assets/Images/Projects/P_08.png",
+                image: "../Images/Projects/P_08.png",
                 title: "E-Commerce Website",
                 condition: "Planning",
                 description: "Online shop with product catalog, cart, checkout, and responsive UI.",
@@ -188,7 +188,7 @@ function init() {
             },
             {
                 id: 9,
-                image: "../../assets/Images/Projects/P_09.png",
+                image: "../Images/Projects/P_09.png",
                 title: "Blog Platform",
                 condition: "Planning",
                 description: "Multi-page blog platform with categories, search, and comments section.",
@@ -200,7 +200,7 @@ function init() {
             },
             {
                 id: 10,
-                image: "../../assets/Images/Projects/P_10.png",
+                image: "../Images/Projects/P_10.png",
                 title: "whatsapp clone",
                 condition: "Planning",
                 description: "website clone for whatsapp to chats , statues , contact list , meta ai",
@@ -212,7 +212,7 @@ function init() {
             },
             {
                 id: 11,
-                image: "../../assets/Images/Projects/P_11.png",
+                image: "../Images/Projects/P_11.png",
                 title: "password generator",
                 condition: "Planning",
                 description: "password generator app it's doing very strong password your customization",
@@ -224,7 +224,7 @@ function init() {
             },
             {
                 id: 12,
-                image: "../../assets/Images/Projects/P_12.png",
+                image: "../Images/Projects/P_12.png",
                 title: "random background",
                 condition: "Planning",
                 description: "random background color with color code and local storage to sava color",
@@ -236,7 +236,7 @@ function init() {
             },
             {
                 id: 13,
-                image: "../../assets/Images/Projects/P_13.png",
+                image: "../Images/Projects/P_13.png",
                 title: "landing page",
                 condition: "completed",
                 description: "creative landing page to profile with modern and dark style",
@@ -355,5 +355,6 @@ function init() {
         });
     }
 }
+
 
 document.addEventListener("DOMContentLoaded", init)
